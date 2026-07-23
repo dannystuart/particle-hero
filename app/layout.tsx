@@ -6,7 +6,7 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Particle Portrait",
+  title: "Particle Hero",
   description:
     "Turn any photo or short clip into a field of light-specks you can tune, play with, and export as an embeddable hero.",
 };

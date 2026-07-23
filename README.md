@@ -1,10 +1,9 @@
-# Particle Portrait
+# Particle Hero
 
 Turn a photo — or a short video clip — into a field of drifting light-specks that part around your cursor. Tune it live, then export it as a self-contained script you can drop into any website.
 
 No 3D library, no particle library, no WebGL. It's hand-written canvas code in one file, and the whole thing installs in about ten seconds.
 
-![Particle Portrait](public/statue-profile.png)
 
 ---
 
