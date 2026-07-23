@@ -4,10 +4,13 @@ Turn a photo — or a short video clip — into a field of drifting light-specks
 
 No 3D library, no particle library, no WebGL. It's hand-written canvas code in one file, and the whole thing installs in about ten seconds.
 
+### → [Try it live](https://particle-hero-six.vercel.app)
+
+Move your cursor across the portrait, then open the panel and start pulling sliders. Best on a desktop, but it works on a phone too.
 
 ---
 
-## Run it
+## Run it locally
 
 ```bash
 pnpm install && pnpm dev
