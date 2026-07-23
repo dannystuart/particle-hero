@@ -1,0 +1,33 @@
+{
+  "name": "particle-portrait",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "description": "Turn a photo or short clip into an interactive field of light-specks, and export it as an embeddable hero.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "build:embed": "esbuild app/engine/embed.entry.ts --bundle --minify --format=iife --target=es2019 --outfile=public/embed/embed.js --log-level=warning"
+  },
+  "dependencies": {
+    "next": "16.1.7",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "sharp"]
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "esbuild": "^0.28.1",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.7",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
